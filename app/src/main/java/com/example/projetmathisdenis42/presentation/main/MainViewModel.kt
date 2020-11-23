@@ -35,8 +35,6 @@ class MainViewModel(
             }
         }
 
-        //counter.value = (counter.value ?: 0) + 1
-
     }
 
 }
