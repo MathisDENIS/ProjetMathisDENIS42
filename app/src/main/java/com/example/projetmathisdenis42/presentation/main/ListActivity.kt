@@ -1,74 +1,32 @@
 package com.example.projetmathisdenis42.presentation.main
 
 
-
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.projetmathisdenis42.R
-//import com.example.projetmathisdenis42.presentation.controller.MainController
-
+import kotlinx.android.synthetic.main.activity_list.*
 
 class ListActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list)
-
+        val exampleList = generateDummyList(500)
+        recycler_view.adapter = ListAdapter(exampleList)
+        recycler_view.layoutManager = LinearLayoutManager(this)
+        recycler_view.setHasFixedSize(true)
+    }
+    private fun generateDummyList(size: Int): List<ExampleItem> {
+        val list = ArrayList<ExampleItem>()
+        for (i in 0 until size) {
+            val drawable = when (i % 3) {
+                0 -> R.mipmap.ic_launcher
+                1 -> R.mipmap.ic_launcher
+                else -> R.mipmap.ic_launcher
+            }
+            val item = ExampleItem(drawable, "Item $i", "Line 2")
+            list += item
+        }
+        return list
     }
 }
-
-    /*private var recyclerView: RecyclerView? = null
-    private var mAdapter: ListAdapter? = null
-    private var layoutManager: RecyclerView.LayoutManager? = null
-    private val mySwipeRefreshLayout: SwipeRefreshLayout? = null
-
-    private var controller: MainController? = null
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_list)
-        controller = MainController(
-            ListActivity(),
-            Singletons.getgson(),
-            Singletons.getSharedPreferences(applicationContext)!!
-        )
-
-        controller!!.onStart()
-        val toolbar = findViewById<Toolbar>(R.id.toolbar)
-        setSupportActionBar(toolbar)
-    }
-
-    fun showList(acList: List<PaysAmeriqueCentrale?>?) {
-        recyclerView = findViewById<View>(R.id.recycler_view) as RecyclerView
-        recyclerView!!.setHasFixedSize(true)
-        layoutManager = LinearLayoutManager(this)
-        recyclerView!!.layoutManager = layoutManager
-        mAdapter = ListAdapter(acList, object : OnItemClickListener() {
-            fun onItemClick(item: PaysAmeriqueCentrale?) {
-                controller.OnItemClick(item)
-            }
-        })
-        recyclerView!!.adapter = mAdapter
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val id = item.itemId
-        return if (id == R.id.action_settings) {
-            true
-        } else super.onOptionsItemSelected(item)
-    }
-
-    fun showError() {
-        Toast.makeText(applicationContext, "API ERROR", Toast.LENGTH_SHORT).show()
-    }
-
-    /*fun navigateDetails(paysAmeriqueCentrale: PaysAmeriqueCentrale?) {
-        val myIntent = Intent(this@ListActivity, DetailActivity::class.java)
-        myIntent.putExtra(
-            "paysAmeriqueCentraleKey",
-            Singletons.gson?.toJson(paysAmeriqueCentrale)
-        )
-        this@ListActivity.startActivity(myIntent)
-    }*/
-
-
-}*/
