@@ -10,7 +10,7 @@
 Cette application affiche une liste des pays d'Amérique Centrale (utilisation d'une API sur GitHub). Pour accèder à cette liste, il suffit de créer un compte puis de s'identifier. Il est possible de réutiliser ce compte (utilisation d'une base de donnée).
 ## Consignes respectées
 - Langage Kotlin
-- Utilisation d'une réelle Base de données
+- Utilisation d'une réelle base de donnée
 - Ecran avec une liste d'éléments (RecyclerView)
 - Appel WebService à une API Rest (americancent.json) avec retrofit
 - Architecture MVVM
