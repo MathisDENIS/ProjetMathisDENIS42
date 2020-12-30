@@ -7,7 +7,7 @@
 - Langage de programmation : Kotlin
 - Lien du projet sur GitHub : https://github.com/MathisDENIS/ProjetMathisDENIS42.git
 ## Présentation 
-Cette application affiche une liste des pays d'Amérique Centrale (utilisation d'une API sur GitHub). Pour accèder à cette liste, il suffit de créer un compte puis de s'indentifier. Il est possible de réutiliser ce compte (utilisation d'une base de donnée).
+Cette application affiche une liste des pays d'Amérique Centrale (utilisation d'une API sur GitHub). Pour accèder à cette liste, il suffit de créer un compte puis de s'identifier. Il est possible de réutiliser ce compte (utilisation d'une base de donnée).
 ## Consignes respectées
 - Langage Kotlin
 - Utilisation d'une réelle Base de données
@@ -22,7 +22,7 @@ Cette application affiche une liste des pays d'Amérique Centrale (utilisation d
 
 
 ### Ecran de connexion
-- Ce premier écran permet de s'identifier. Si l'utilisateur ne possède pas de compte, il lui suffit d'en créer un en cliquant sur "Create Account".
+- Ce premier écran permet de s'identifier en utilisant son adresse mail et son mot de passe. Si l'utilisateur ne possède pas de compte, il lui suffit d'en créer un en cliquant sur "Create Account".
 
 
 
@@ -35,7 +35,7 @@ Cette application affiche une liste des pays d'Amérique Centrale (utilisation d
 
 
 ### Ecran d'affichage de la liste de pays 
-- Cet écran permet l'affichage de la liste de pays.
+- Après s'être identifier, cet écran permet l'affichage de la liste de pays.
 
 
 
