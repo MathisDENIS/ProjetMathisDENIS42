@@ -12,7 +12,7 @@ Cette application affiche une liste des pays d'Amérique Centrale (utilisation d
 - Langage Kotlin
 - Utilisation d'une réelle base de donnée
 - Ecran avec une liste d'éléments (RecyclerView)
-- Appel WebService à une API Rest (americancent.json) avec retrofit
+- Appel WebService à une API Rest (americancent.json)
 - Architecture MVVM
 - Clean Architecture
 ## Fonctionnalités
