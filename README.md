@@ -18,7 +18,7 @@ Cette application affiche une liste des pays d'Amérique Centrale (utilisation d
 ## Fonctionnalités
 ### Icone de l'application
 - On clique sur l'icône pour lancer l'application.
-![github-small](https://github.com/MathisDENIS/ProjetMathisDENIS42/issues/1#issue-776373851)
+![Capture d’écran 2020-12-30 103857](https://github.com/MathisDENIS/ProjetMathisDENIS42/issues/1#issue-776373851)
 
 
 ### Ecran de connexion
