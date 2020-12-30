@@ -22,7 +22,7 @@ Cette application affiche une liste des pays d'Amérique Centrale (utilisation d
 
 
 ### Ecran de connexion
-- Ce premier écran permet de s'identifier en utilisant son adresse mail et son mot de passe. Si l'utilisateur ne possède pas de compte, il lui suffit d'en créer un en cliquant sur "Create Account".
+- Ce premier écran d'accueil permet de s'identifier en utilisant son adresse mail et son mot de passe. Si l'utilisateur ne possède pas de compte, il lui suffit d'en créer un en cliquant sur "Create Account".
 
 
 
@@ -30,7 +30,7 @@ Cette application affiche une liste des pays d'Amérique Centrale (utilisation d
 
 
 ### Ecran de création de compte
-- Ce deuxième écran permet à l'utilisateur de créer son compte personnel en indiquant une adresse mail et un mot de passe.
+- Après avoir cliqué sur le bouton "Create Account" le deuxième écran permet à l'utilisateur de créer son compte personnel en indiquant une adresse mail et un mot de passe.
 
 
 
