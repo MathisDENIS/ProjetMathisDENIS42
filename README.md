@@ -28,7 +28,7 @@ Cette application affiche une liste des pays d'Amérique Centrale (utilisation d
 ![Capture d’écran 2020-12-30 103935](https://user-images.githubusercontent.com/62901279/103345872-ce320f80-4a92-11eb-93ad-f6f328282fc9.png)
 ![Capture d’écran 2020-12-30 104026](https://user-images.githubusercontent.com/62901279/103345954-0fc2ba80-4a93-11eb-9f81-8147d98e8b47.png)
 
-Avant création de compte -------------------------------------- Après creation de compte
+Avant création de compte ------------------------------------ Après creation de compte
 
 ![Capture d’écran 2020-12-30 104126](https://user-images.githubusercontent.com/62901279/103345995-28cb6b80-4a93-11eb-855c-db429e0a08f4.png)
 ![Capture d’écran 2020-12-30 104337](https://user-images.githubusercontent.com/62901279/103346179-95466a80-4a93-11eb-9e95-d14fc2d4b45d.png)
