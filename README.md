@@ -26,6 +26,7 @@ Cette application affiche une liste des pays d'Amérique Centrale (utilisation d
 - Ce premier écran d'accueil permet de s'identifier en utilisant son adresse mail et son mot de passe. Si l'utilisateur ne possède pas de compte, il lui suffit d'en créer un en cliquant sur "Create Account".
 
 ![Capture d’écran 2020-12-30 103935](https://user-images.githubusercontent.com/62901279/103345872-ce320f80-4a92-11eb-93ad-f6f328282fc9.png)
+![Capture d’écran 2020-12-30 104026](https://user-images.githubusercontent.com/62901279/103345954-0fc2ba80-4a93-11eb-9f81-8147d98e8b47.png)
 
 
 
