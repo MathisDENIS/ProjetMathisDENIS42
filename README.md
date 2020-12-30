@@ -35,7 +35,7 @@ Avant création de compte ------------------------------------ Après creation d
 
 
 ### Ecran de création de compte
-- Après avoir cliqué sur le bouton "Create Account" le deuxième écran permet à l'utilisateur de créer son compte personnel en indiquant ses informations personnels. L'utilisateur clique sur le bouton "Create" pour valider et retourner sur la page de connexion.
+- Après avoir cliqué sur le bouton "Create Account" le deuxième écran permet à l'utilisateur de créer son compte personnel en indiquant ses informations personnelles. L'utilisateur clique sur le bouton "Create" pour valider et retourner sur la page de connexion.
 
 ![Capture d’écran 2020-12-30 104207](https://user-images.githubusercontent.com/62901279/103346044-4567a380-4a93-11eb-8d23-76c7565f35a6.png)
 
