@@ -1,34 +1,23 @@
 package com.example.projetmathisdenis42.presentation.main
 
-
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.projetmathisdenis42.R
 import com.example.projetmathisdenis42.presentation.model.PaysAmeriqueCentrale
-import kotlinx.android.synthetic.main.row_layout.view.*
+import org.jetbrains.anko.toast
 
-class ListAdapter(private val users: List<PaysAmeriqueCentrale>) : RecyclerView.Adapter<ListAdapter.ViewHolder>() {
+class ListAdapter (private val listeAC: List<PaysAmeriqueCentrale>)
+        : RecyclerView.Adapter<ListViewHolder>() {
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val itemView = LayoutInflater.from(parent.context).inflate(
-            R.layout.row_layout,
-            parent, false)
-        return ViewHolder(itemView)
-    }
+        override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
+            val paysss: PaysAmeriqueCentrale = listeAC[position]
+            holder.bind(paysss)
+        }
 
-    override fun getItemCount() = users.size
+        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
+            val infHol = LayoutInflater.from(parent.context)
+            return ListViewHolder(infHol, parent)
+        }
 
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val currentItem = users[position]
-        holder.textView1.text = currentItem.name
-    }
-
-
-    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val textView1: TextView = itemView.text_view_1
-
-    }
+        override fun getItemCount(): Int = listeAC.size
 }

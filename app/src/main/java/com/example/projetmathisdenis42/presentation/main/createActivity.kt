@@ -15,7 +15,6 @@ class createActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_create)
 
-
         create_log_pass.setOnClickListener{
             mainViewModel.onClickedCreate(
                 login_edit.text.toString().trim(),
@@ -25,7 +24,4 @@ class createActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
-
-
-
 }

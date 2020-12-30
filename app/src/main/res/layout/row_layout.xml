@@ -29,7 +29,22 @@ android:padding="6dip">
     android:layout_toRightOf="@id/icon"
     android:gravity="center_vertical"
     android:text="Example application"
-    android:textSize="16sp" />
+    android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_view_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/text_view_1"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="6dp"
+        android:layout_toRightOf="@id/icon"
+        android:gravity="center_vertical"
+        android:text="Example application"
+        android:textSize="14sp" />
 
 </RelativeLayout>
 

@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             when (it) {
                 is LoginSuccess -> {
                     MaterialAlertDialogBuilder(this)
-                        .setTitle("Succes")
+                        .setTitle("Success")
                         .setMessage("Connexion")
                         .setPositiveButton("OK") { dialog, which ->
                             dialog.dismiss()
@@ -33,8 +33,8 @@ class MainActivity : AppCompatActivity() {
                 }
                 LoginError -> {
                     MaterialAlertDialogBuilder(this)
-                        .setTitle("Erreur")
-                        .setMessage("Compte inconnu")
+                        .setTitle("Error")
+                        .setMessage("Unknown account")
                         .setPositiveButton("OK") { dialog, which ->
                             dialog.dismiss()
                         }
@@ -50,10 +50,6 @@ class MainActivity : AppCompatActivity() {
             )
         }
         create_account_button.setOnClickListener{
-            /*mainViewModel.onClickedCreate(
-                login_edit.text.toString().trim(),
-                password_edit.text.toString()
-            )*/
             val intent = Intent(this, createActivity::class.java)
             startActivity(intent)
         }

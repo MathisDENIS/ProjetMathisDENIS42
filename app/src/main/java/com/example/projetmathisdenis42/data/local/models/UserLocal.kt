@@ -8,6 +8,7 @@ import com.example.projetmathisdenis42.domain.entity.User
 @Entity
 data class UserLocal (
     @ColumnInfo(name = "email") val email : String
+
 ){
     @PrimaryKey(autoGenerate = true) var uid : Int? = null
 }
