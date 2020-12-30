@@ -7,6 +7,7 @@ import androidx.lifecycle.Observer
 import com.example.projetmathisdenis42.R
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.android.synthetic.main.activity_main.*
+import org.jetbrains.anko.toast
 import org.koin.android.ext.android.inject
 
 
@@ -20,7 +21,15 @@ class MainActivity : AppCompatActivity() {
         mainViewModel.loginLiveData.observe(this, Observer {
             when (it) {
                 is LoginSuccess -> {
-
+                    MaterialAlertDialogBuilder(this)
+                        .setTitle("Succes")
+                        .setMessage("Connexion")
+                        .setPositiveButton("OK") { dialog, which ->
+                            dialog.dismiss()
+                        }
+                        .show()
+                    val intent = Intent(this, ListActivity::class.java)
+                    startActivity(intent)
                 }
                 LoginError -> {
                     MaterialAlertDialogBuilder(this)
@@ -39,22 +48,14 @@ class MainActivity : AppCompatActivity() {
                 login_edit.text.toString().trim(),
                 password_edit.text.toString()
             )
-            val intent = Intent(this, ListActivity::class.java)
-            startActivity(intent)
-
         }
-
-        /*fun navigateList() {
-            val myIntent = Intent(this@MainActivity, MainActivity::class.java)
-            /*myIntent.putExtra(
-                "paysAmeriqueCentraleKey",
-                Singletons.getGson().toJson(paysAmeriqueCentrale)
+        create_account_button.setOnClickListener{
+            /*mainViewModel.onClickedCreate(
+                login_edit.text.toString().trim(),
+                password_edit.text.toString()
             )*/
-            this@MainActivity.startActivity(myIntent)
-        }*/
-
-        /*mainViewModel.counter.observe(this, androidx.lifecycle.Observer {
-                value-> main_text.text = value.toString()
-        })*/
+            val intent = Intent(this, createActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
