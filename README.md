@@ -18,6 +18,7 @@ Cette application affiche une liste des pays d'Amérique Centrale (utilisation d
 ## Fonctionnalités
 ### Icone de l'application
 - On clique sur l'icône pour lancer l'application.
+
 ![Capture d’écran 2020-12-30 103857](https://user-images.githubusercontent.com/62901279/103344377-bd7f9a80-4a8e-11eb-8cc6-a7596d8daa89.png)
 
 
