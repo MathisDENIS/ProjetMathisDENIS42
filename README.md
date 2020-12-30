@@ -35,12 +35,12 @@ Avant création de compte ------------------------------------ Après creation d
 
 
 ### Ecran de création de compte
-- Après avoir cliqué sur le bouton "Create Account" le deuxième écran permet à l'utilisateur de créer son compte personnel en indiquant une adresse mail et un mot de passe.
+- Après avoir cliqué sur le bouton "Create Account" le deuxième écran permet à l'utilisateur de créer son compte personnel en indiquant ses informations personnels. L'utilisateur clique sur le bouton "Create" pour valider et retourner sur la page de connexion.
 
 ![Capture d’écran 2020-12-30 104207](https://user-images.githubusercontent.com/62901279/103346044-4567a380-4a93-11eb-8d23-76c7565f35a6.png)
 
 ### Ecran d'affichage de la liste de pays 
-- Après s'être identifier, cet écran permet l'affichage de la liste de pays.
+- Après s'être identifie en cliquant sur le bouton "Login", cet écran permet l'affichage de la liste de pays.
 
 ![Capture d’écran 2020-12-30 105230](https://user-images.githubusercontent.com/62901279/103346433-40572400-4a94-11eb-9963-b8b2c70463e7.png)
 
