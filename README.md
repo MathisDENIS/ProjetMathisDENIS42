@@ -20,7 +20,7 @@ Cette application affiche une liste des pays d'Amérique Centrale avec leurs dé
 ### Icone de l'application
 - On clique sur l'icône pour lancer l'application.
 
-![Screenshot_20200521-154007_One UI Home](https://user-images.githubusercontent.com/62901279/82567397-9a4a4f80-9b7d-11ea-8737-abcf9f8001c7.jpg)
+
 
 ### Ecran Home
 - Ce premier écran permet d'afficher la carte de l'Amérique Centrale et la liste des pays. On peut cliquer sur un pays pour plus d'informations.
