@@ -50,3 +50,6 @@ Avant création de compte ------------------------------------ Après creation d
 
 Exemple des données pour le Guatemala :
 
+![Capture d’écran 2020-12-30 174303](https://user-images.githubusercontent.com/62901279/103367929-91800b80-4ac6-11eb-9cf9-e44cf197ad12.png)
+
+
