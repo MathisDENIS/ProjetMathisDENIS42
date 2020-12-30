@@ -1,7 +1,7 @@
 # Projet de Programmation Mobile 4A 2020
 
 ## Informations principales 
-- Développeur : Mathis DENIS
+- Développeur : Mathis DENIS Classe 42
 - Nom de l'application : Unknown Land
 - Environnement de développement : Android Studio 
 - Langage de programmation : Kotlin
@@ -21,20 +21,21 @@ Cette application affiche une liste des pays d'Amérique Centrale (utilisation d
 
 
 
-### Ecran Home
-- Ce premier écran permet d'afficher la carte de l'Amérique Centrale et la liste des pays. On peut cliquer sur un pays pour plus d'informations.
+### Ecran de connexion
+- Ce premier écran permet de s'identifier. Si l'utilisateur ne possède pas de compte, il lui suffit d'en créer un en cliquant sur "Create Account".
 
 
 
 
 
-### Ecran des détails du pays
-- Ce deuxième écran permet d'afficher les informations du pays que l'on a sélectionné dans l'écran home.
+
+### Ecran de création de compte
+- Ce deuxième écran permet à l'utilisateur de créer son compte personnel en indiquant une adresse mail et un mot de passe.
 
 
 
-### Ecran des détails du pays en mode avion 
-- Les données sont sauvegardées en mémoire cache.
+### Ecran d'affichage de la liste de pays 
+- Cet écran permet l'affichage de la liste de pays.
 
 
 
